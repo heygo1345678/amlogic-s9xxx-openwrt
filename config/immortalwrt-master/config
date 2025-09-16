@@ -2519,7 +2519,7 @@ CONFIG_PACKAGE_kmod-ipt-nat=y
 CONFIG_PACKAGE_kmod-ipt-nat6=y
 # CONFIG_PACKAGE_kmod-ipt-nflog is not set
 CONFIG_PACKAGE_kmod-ipt-nfqueue=y
-# CONFIG_PACKAGE_kmod-ipt-offload is not set
+CONFIG_PACKAGE_kmod-ipt-offload=y
 CONFIG_PACKAGE_kmod-ipt-physdev=y
 # CONFIG_PACKAGE_kmod-ipt-proto is not set
 # CONFIG_PACKAGE_kmod-ipt-psd is not set
@@ -5258,7 +5258,7 @@ CONFIG_LIBQMI_COLLECTION_BASIC=y
 # CONFIG_LIBQMI_COLLECTION_FULL is not set
 # end of Configuration
 
-# CONFIG_PACKAGE_libqrencode is not set
+CONFIG_PACKAGE_libqrencode=y
 CONFIG_PACKAGE_libqrtr-glib=y
 # CONFIG_PACKAGE_libquickjs is not set
 # CONFIG_PACKAGE_libradcli is not set
@@ -5521,7 +5521,7 @@ CONFIG_PACKAGE_luci-mod-system=y
 #
 # 3. Applications
 #
-# CONFIG_PACKAGE_luci-app-3cat is not set
+CONFIG_PACKAGE_luci-app-3cat=y
 # CONFIG_PACKAGE_luci-app-3ginfo-lite is not set
 # CONFIG_PACKAGE_luci-app-acl is not set
 # CONFIG_PACKAGE_luci-app-acme is not set
@@ -7208,14 +7208,14 @@ CONFIG_OPENVPN_openssl_ENABLE_DCO=y
 CONFIG_OPENVPN_openssl_ENABLE_SMALL=y
 # CONFIG_PACKAGE_openvpn-wolfssl is not set
 # CONFIG_PACKAGE_pptpd is not set
-# CONFIG_PACKAGE_softethervpn-base is not set
+CONFIG_PACKAGE_softethervpn-base=y
 # CONFIG_PACKAGE_softethervpn-bridge is not set
 # CONFIG_PACKAGE_softethervpn-client is not set
-# CONFIG_PACKAGE_softethervpn-server is not set
+CONFIG_PACKAGE_softethervpn-server=y
 # CONFIG_PACKAGE_softethervpn5-bridge is not set
 # CONFIG_PACKAGE_softethervpn5-client is not set
-CONFIG_PACKAGE_softethervpn5-libs=y
-CONFIG_PACKAGE_softethervpn5-server=y
+# CONFIG_PACKAGE_softethervpn5-libs is not set
+# CONFIG_PACKAGE_softethervpn5-server is not set
 # CONFIG_PACKAGE_sstp-client is not set
 CONFIG_PACKAGE_strongswan=y
 
@@ -8704,7 +8704,7 @@ CONFIG_PACKAGE_openssl-util=y
 # CONFIG_PACKAGE_psmisc is not set
 CONFIG_PACKAGE_pv=y
 CONFIG_PACKAGE_qmi-utils=y
-# CONFIG_PACKAGE_qrencode is not set
+CONFIG_PACKAGE_qrencode=y
 # CONFIG_PACKAGE_quectel-timesync is not set
 # CONFIG_PACKAGE_quota is not set
 # CONFIG_PACKAGE_ravpower-mcu is not set
@@ -8746,7 +8746,7 @@ CONFIG_PACKAGE_sed=y
 # CONFIG_PACKAGE_setools-sesearch is not set
 # CONFIG_PACKAGE_setserial is not set
 # CONFIG_PACKAGE_sexpect is not set
-# CONFIG_PACKAGE_shadow-utils is not set
+CONFIG_PACKAGE_shadow-utils=y
 # CONFIG_PACKAGE_shared-mime-info is not set
 CONFIG_PACKAGE_shellsync=y
 # CONFIG_PACKAGE_sipcalc is not set
